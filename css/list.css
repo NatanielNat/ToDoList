@@ -1,0 +1,76 @@
+.task__done {
+text-decoration: line-through;
+background:hsl(0, 0%, 80%);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.li__item {
+    list-style: none;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 5% 80% 10%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    word-break: break-all;
+
+}
+
+.js-remove {
+    background: red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    color:#000;
+    
+}
+.js-remove:hover{
+    background:hsl(0, 100%, 80%);
+}
+
+.js-done {
+    background: rgb(2, 219, 56);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background 0.5s;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+}
+.js-done:hover{
+    background:#fff;
+    color:#000;
+}
+
+.tasksItemHiddenStyle {
+    display: none;
+}
+ul{
+    background:#fff;
+    border:1px solid grey;
+    padding:20px;
+}
+
+@media(max-width:900px){
+    span{
+        padding:20px;
+    }
+    }
+
+@media(max-width:400px){
+    span{
+        margin-left:10px;
+    }
+}

@@ -1,0 +1,50 @@
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.buttons__style {
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: teal;
+    font-size: 20px;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttons__style:disabled {
+    color: grey;
+    background: hsl(180, 100%, 15%);
+}
+
+.buttons__style:disabled:hover {
+    color: grey;
+    background: hsl(180, 100%, 15%);
+}
+
+.buttons__style:hover {
+    background: hsl(180, 100%, 55%);
+    color: #000;
+}
+
+@media(max-width:900px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    }
+
+
+
+@media( max-width:400px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    
+}

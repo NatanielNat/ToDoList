@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    background: hsl(0, 0%, 90%);
+    font-family: 'Andika', sans-serif;
+    min-width: 655px;
+    padding:100px;
+    overflow-x:hidden;
+}
+
+
+
+@media( max-width:400px){
+    body{
+       padding:0;
+       min-width: 50px;
+    }
+}
