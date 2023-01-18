@@ -98,6 +98,20 @@ const bindEvents = () =>{
 
 
 };
+
+
+
+
+
+const myDate = () => {
+    const newDate = new Date();
+    document.querySelector(".date").innerHTML = newDate.toLocaleString();
+};
+
+
+
+
+
 const renderTasks = () =>{
 
     let htmlContent = "";
@@ -178,7 +192,7 @@ Add.addEventListener("click",(e)=>{
 });
 
 };
-
+setInterval(myDate,1000);
 initial();
 
 

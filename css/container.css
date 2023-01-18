@@ -16,6 +16,9 @@
     background: #fff;
     border: 1px solid grey;
 }
+.date{
+    margin-bottom:20px;
+}
 
 @media( max-width:900px){
 .element{
